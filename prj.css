@@ -1,0 +1,204 @@
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    
+    .container{
+      /* height: 650px; */
+      /* width: 1320px;
+      border: 2px solid rgb(0, 5, 1);
+      margin-top: 10px; */
+      /* overflow: scroll; */
+      /* align-items: center; */
+    }
+    .logo-navbar{
+      height:20%;
+      width:100%;
+      /* background-color: aquamarine; */
+      margin: 0;
+    }
+    .logo{
+      height:100%;
+      width: 12%;
+      margin-top: 10px;
+      border-radius: 50%;
+      float: left;
+      box-shadow:-5px 5px 0 0 hsl(2, 58%, 41%), -10px 10px 0 0 rgba(196, 48, 48, 0.6), -15px 15px 0 0 rgba(202, 93, 73, 0.4), -20px 20px 0 0 rgba(177, 73, 73, 0.2), -25px 25px 0 0 rgba(207, 119, 119, 0.1);
+      /* margin-right: 100px; */
+    }
+    .logo2{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      margin-right: 300px;
+    }
+    .logo img{
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      transform: rotateZ(-10deg);
+      
+    }
+    .navbar1{
+      width: 80%;
+      margin-top: 10px;
+     float: left;
+     margin-left: 60px;
+    }
+    .btn{
+      height:50px;
+      border-radius: 20px;
+      width: 170px;
+      /* margin-left: 30px; */
+      background-color: white;
+      border: 1.9px solid green;
+      text-align:center;
+    }
+    .btn:hover{
+      /* opacity: 0.3; */
+      background-color: rgb(167, 82, 145);
+      color: white;
+    }
+    .navbar1 a{
+      color: red;
+      font-size: 20px;
+    }
+    .navbar1 a:hover{
+      color:white;
+    }
+    .sip{
+      width: 200px;
+      height: 40px;
+      border-radius: 20px;
+      margin-left: 130px;
+      }
+    .pizza{
+      color: goldenrod;
+      margin-left: 30px;
+      margin-top: 30px;
+    }
+    .side-navbar{
+      height:100%;
+      width:10%;
+      /* border: 2px solid black; */
+      float: left;
+      /* background-color: aqua; */
+      /* margin-top: 40px; */
+      margin-left: auto;
+     }
+     .side-navbar a{
+      height: 10%;
+      width: 100px;
+      color: black;
+      text-decoration: none;
+     }
+     .btn2{
+      border:none;
+      margin-left: none;
+      height: 50px;
+      width: 120px;
+     }
+     .btn2:hover{
+      background-color: rgb(167, 82, 145);
+     }
+     .content{
+      height: 100%;
+      width: 62%;
+      /* border: 2px solid goldenrod; */
+      /* background-color: black; */
+      float: left;
+      overflow: scroll;
+      margin-left: 50px;
+     }
+     .foodlist{
+      height: 100%;
+      width: 20%;
+      float: left;
+      margin-left: 30px;
+      /* background-color: aqua; */
+      /* text-align: center; */
+     }
+     .second2{
+      height: 100%;
+      width: 100%;
+      /* border: 2px solid goldenrod; */
+      margin-top: 30px;
+      /* text-align: center; */
+      
+     }
+     .image1{
+      height: 50px;
+      width: 50px;
+      overflow: hidden;
+      border-radius: 50%;
+      margin-left: 10px;
+     }
+     .image1 img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+     }
+      .flink{
+        color: black;
+        text-align: center;
+      }
+      .flink:hover{
+        color: black;
+       text-decoration: none;
+      }
+      .gfh{
+        font-size: 30px;
+        color:rgb(233, 90, 7);
+        text-decoration: underline;
+        font-family: sans-serif;
+        margin-top: 50px;
+        margin-left: 80px;
+      }
+      .kmc{
+        margin-left: 320px;
+       
+      }
+      
+      .oop{
+        /* position: absolute; */
+        /* top: 10px; */
+        margin-bottom: 20px;
+        right: 0;
+        margin-left: 20px; 
+        background-color: rgba(255, 255, 255, 0.7);
+        /* padding: 5px; */
+        width: 100%;
+        text-align: center;
+      }
+      .koo{
+        display: block;
+      text-align: center;
+      }
+      .poo{
+        position: relative;
+      display: inline-block;
+      margin-right: 20px;
+      }
+      .nav-category{
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          margin-bottom: 10px;
+          color: rgb(0, 0, 0);
+        }
+        .category_name {
+          margin-left: 10px; /* Adjust the spacing as needed */
+        }
+        .profile{
+          border: 1px solid black;
+          background-color: aliceblue;
+        }
+        .pizza{
+          text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 
+          0px -4px 10px rgba(255,255,255,0.3);
+          color: #121212;
+          text-align: justify;
+          margin-left: 30px;
+          margin-top: 20px;
+        }
